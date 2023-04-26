@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+</head>
+<style type="text/css">
+/* css 주석*/
+table, tr, td, th {
+	border: solid 1px blue;
+	border-collapse: collapse;
+	padding: 8px;
+}
+</style>
+<body>
+	<h3>일기예보</h3>
+	<!--  rowspan :행을 합하기
+      colspan :열을 합하기
+      
+       -->
+	<table>
+		<tr>
+			<th rowspan="2">지역</th>
+			<th colspan="2">27일(목)</th>
+			<th colspan="2">28일(금)</th>
+			<th colspan="2">29일(토)</th>
+		</tr>
+		<tr>
+			<td>오전</td>
+			<td>오후</td>
+			<td>오전</td>
+			<td>오후</td>
+			<td>오전</td>
+			<td>오후</td>
+		</tr>
+		<tr>
+			<td>서울<br>경기도
+			</td>
+			<th rowspan="2" colspan="3"><img src="img/shine.png"></th>
+			<th rowspan="2" colspan="3"><img src="img/rain.png"></th>
+		</tr>
+		<tr>
+			<td>제주도</td>
+		</tr>
+	</table>
+
+	<br>
+
+	<table>
+
+		<tr>
+			<th rowspan="2">지역</th>
+			<th colspan="2">27일(목)</th>
+			<th colspan="2">28일(금)</th>
+			<th colspan="2">29일(토)</th>
+		</tr>
+		<tr>
+			<td>오전</td>
+			<td>오후</td>
+			<td>오전</td>
+			<td>오후</td>
+			<td>오전</td>
+			<td>오후</td>
+		</tr>
+		<tr>
+			<td>서울<br>경기도
+			</td>
+			<td><img src="img/shine.png"></td>
+			<td><img src="img/shine.png"></td>
+			<td><img src="img/shine.png"></td>
+			<td><img src="img/rain.png"></td>
+			<td><img src="img/rain.png"></td>
+			<td><img src="img/rain.png"></td>
+		</tr>
+		<tr>
+			<td>제주도</td>
+			<td><img src="img/shine.png"></td>
+			<td><img src="img/shine.png"></td>
+			<td><img src="img/shine.png"></td>
+			<td><img src="img/rain.png"></td>
+			<td><img src="img/rain.png"></td>
+			<td><img src="img/rain.png"></td>
+		</tr>
+
+
+
+
+
+	</table>
+</body>
+</html>

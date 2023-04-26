@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<!-- webapp/20230322/cssex9.html -->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>상태 선택자 예제2 </title>
+<style type="text/css">
+/*입력 가능한 input 태그: 배경색:노랑, 글자크기:30px*/
+input:enabled {background: yellow; font-size: 30px;}
+/*입력 가능한 input 태그 선택: 배경색:노랑, 글자크기:30px*/
+input:focus {background: pink; font-size: 15px;}
+/*입력 불가능한 input 태그: 배경색:검정, 글자색:흰색"*/
+input:disabled{background-color: black; color:whith;}
+</style>
+</head>
+<body>
+<h2>입력이 가능한 input 태그</h2>
+<input type="text">
+<h2>입력이 불가능한 input 태그</h2>
+<input type="text" disabled="disabled" value="입력불가능">
+</body>
+</html>

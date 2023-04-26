@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!-- wabapp/20230317/cssex1.html 
+css 적용 방법
+1.inline 방식 : 태그 내부에 style 속성으로 설정
+               적용범위:style 속성을 가지고 있는 태그 한개 우선 순위1
+2.<style> 태그 :내부 style.html 내부에 <style> 태그를 이용하여 설정
+               적용범위:현재 페이지의 태그들   우선 순위2
+3.외부 style :html 밖에 .scc 파일을 연결하여 스타일 설정
+             적용범위:css를 적용한 모든 현재 페이지의 태그들 우선 순위3
+
+-->
+
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+    p {color:blue; } /* 현재 페이지의 p 태그의 글자 색은 파랑색 설정 */
+</style>
+<link rel="stylesheet" href="css1.css">
+</head>
+<body>
+<h1>css 연습</h1>
+<h3 style="color:red">여행(travel)의 어원</h3>
+<h3>css 연습</h3>
+<p>css연습</p>
+
+
+<p>여행을 뜻하는 영어 단어 'travel'의 어원은 travail(고통,고난) 이라고 합니다.
+교통이 발달하지 않은 과거에는 여행이 고통이나 고난이었덕 거지요.
+여행이 오락이나 쾌락으로 여겨지게 된 것은 교통수단이 조금 더 발달된 19세기에
+이르러서 입니다.</p>
+</body>
+</html>

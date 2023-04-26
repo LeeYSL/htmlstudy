@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- wabapp/20230317/tableex1.hyml -->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>KTX 시간표</title>
+<style type="text/css">
+/* css 주석*/
+table,tr,td,th { /* 태그 선택 */
+border : solid 1px blue; /*border(테두리) : 1.선의 종류solid(실선), 2.선의 두께(1px) 3.선 색상*/
+border-collapse: collapse;/* 태그 사이에 간격을 제거:margin*/
+padding:8px;/*셀에서 값과 테두리의 간격 셀 내부의 여백*/
+}
+
+</style>
+</head>
+<body>
+<h3>KTX열차 시간표</h3>
+<!-- 
+table 태그 : 표
+table  >  tr 태그  : 행. 가로한줄
+table  >  tr 태그 > th 태그 : 셀. 한칸 header 정보. 글자를 두껍게 표시 가운데 정렬
+table  >  tr > td 태그 : 셀. 한칸. 데이터 정보
+ 
+ -->
+<table>
+<tr><th>출발</th><th>도착</th><th>객실</th><th>요금</th><th>비고</th></tr>
+<tr><td>서울(17:25)</td><td>대전(20:07)</td><td>일반실</td><td>50,800</td></tr>
+<tr><td>서울(18:00)</td><td>대전(20:35)</td><td>특실</td><td>83,700</td></tr>
+<tr><td>서울(18:15)</td><td>대전(20:50)</td><td>일반실</td><td>50,800</td></tr>
+</table></body></html>
